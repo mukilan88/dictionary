@@ -13,9 +13,9 @@ def translate(w):
         return data[w]
     elif len(get_close_matches(w, data.keys())) > 0:
         yn =input("Did you mean %s insted? Enter Y if yes, or N if no:" % get_close_matches(w, data.keys())[0])
-        if yn == "Y":
+        if (yn == "Y") or (yn == "y"):
             return data[get_close_matches(w, data.keys())[0]]
-        elif yn == "N":
+        elif (yn == "N") or (yn == "n"):
             return "The word doesn't exits. Please double check it."
         else:
             return "We didn't understand your entry"
@@ -27,4 +27,12 @@ def translate(w):
 # user to give input word 
 word = input("Enter word: ")
 
-print(translate(word))
+# print(translate(word)) it is not user friendly o/p get inside a array bracet
+# output with nice line by line readable
+output = translate(word)
+
+if type(output) == list:
+    for item in output:
+        print(item)
+else:
+    print(output)
