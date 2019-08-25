@@ -1,16 +1,16 @@
-Alt-H1 #Dictionary App
+#Dictionary App
 
 This is a basic python app workes in "Terminal" or "CMD" port
 
-Alt-H1 ## Prerequisites
+## Prerequisites
 
 We need to download the "data.json" also along with the "main.py"
 
-Alt-H1 # Running the tests
+# Running the tests
 
 main.py need's data.json to run this app because all the dictionary words are saved in the json file.
 
-Alt-H1 # License
+# License
 
 Copyright 2019 Mukilan Selvaraj
 
