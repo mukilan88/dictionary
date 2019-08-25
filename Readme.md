@@ -1,4 +1,4 @@
-Alt-H1 #Dictionary App
+Alt-H1 Dictionary App
 
 This is a basic python app workes in "Terminal" or "CMD" port
 
