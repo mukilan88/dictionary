@@ -1,4 +1,4 @@
-#Dictionary App
+# Dictionary AppS
 
 This is a basic python app workes in "Terminal" or "CMD" port
 
