@@ -1,4 +1,3 @@
-
 # Dictionary App
 
 This is a basic python app workes in "Terminal" or "CMD" port
@@ -6,11 +5,6 @@ This is a basic python app workes in "Terminal" or "CMD" port
 ## Prerequisites
 
 We need to download the "data.json" also along with the "main.py"
-
-# Installing
-
-    pre install pip system 
-
 
 # Running the tests
 
